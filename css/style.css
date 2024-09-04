@@ -1,0 +1,330 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+:root{
+    --gold:rgb(218, 180, 57);
+    --gold2:#dbbe67;
+    --grey2:#807f7f;
+    --black:#000000;
+    --white:#ffffff;  
+}
+body::-webkit-scrollbar-thumb {
+    background-color: var(--white);
+  }
+  
+  body::-webkit-scrollbar {
+    width: 11px;
+    background-color: var(--black);
+  }
+.nav-item a:hover{
+    color:var(--gold2);
+}
+.button-gold {
+	background: var(--black);
+	color: var(--white);
+	transition: 0.4s;
+    border-radius: 50px;
+    width: 120px;
+}
+.active{
+    color: var(--gold2) !important;
+}
+
+
+.button-gold:hover {
+	color: var(--black);
+	box-shadow: 0 0 0 10px rgba(250, 250, 250, 0.1);
+    background-color:var(--white);
+    border: 1px solid var(--gold);
+}
+body{
+    font-family: "Raleway", sans-serif;
+}
+.banner{
+    background-color: var(--black);
+}
+.carousel-inner{
+    height: 700px;
+}
+.gold{
+    margin-top: -100px;
+}
+
+.text-white{
+    color: var(--white)!important;
+}
+.navbar{
+    background-color: var(--black);
+}
+.nav-link, .text-white{
+    color:var(--white);
+}
+.logo img{
+    width: 100%;
+    height: 90px;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.btn-close{
+    background-color: var(--white);
+}
+.card-img-top{
+    padding: 20px;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    border-radius: 0px;
+}
+.card-body{
+    padding: 20px;
+    margin-top: -15px;
+}
+
+h3,h5{
+    color: rgb(14, 12, 11);
+}
+
+h1{
+    font-family: "Dancing Script";
+    font-size: 50px;
+}
+.card img{
+    width: 100%;
+    height: 300px;
+}
+.price{
+    margin-left: -20px;
+}
+h6{
+    color:var(--gold);
+}
+h5{ 
+    font-family: "Dancing Script";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.h5 {
+    font-family: "Dancing Script";
+    font-size: 18px;
+}
+.navbar-nav li{
+    font-size: 23px;
+    font-family: "Dancing Script";
+    
+}
+.background img{
+    max-width: 1200px;
+    margin-left: 450px;
+}
+@media only screen and (max-width: 1524px)
+{
+    .background img{ 
+    margin-left: 350px;}
+}
+@media only screen and (max-width: 1289px)
+{
+    .background img{ 
+    margin-left: 200px;}
+}
+.ico{
+    font-size: 25px;
+    color: var(--black);
+}
+.h{
+    font-size: 32px;
+    font-family: "Dancing Script";
+    font-weight: bold;
+    
+}
+.footer-copyright-wrapper h5{
+    font-size: 20px
+}
+.footer .list-unstyled li a{
+    color: var(--grey2);
+}
+.footer .list-unstyled li a:hover{
+        color:var(--gold2);
+}
+.text-gold{
+    color: var(--gold2);
+}
+.b .button{
+    background-color: var(--black);
+    border: 1px solid var(--gold2);
+    color: var(--white);
+    box-shadow: 0 0 0 10px rgba(250, 250, 250, 0.056);
+
+}
+.b .button:hover{
+    color: var(--black);
+    background-color:var(--gold2);
+    transform: translateY(-7px);
+}
+.fa{
+    font-size: 30px;
+    color: var(--gold2);
+}
+.gold-shadow:hover{
+    box-shadow: 0 0 30px 0 var(--gold2);
+}
+
+
+.testimonial{
+    background-image: url("../img/palm1.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+    position: relative;
+    padding-bottom: 100px;
+    overflow: hidden;
+  }
+  
+  .carousel-item{
+      min-height: 500px;
+      position: relative;
+  
+  }
+  .carousel-img{
+      position: absolute;
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      left: 50%;
+      top: 15%;
+      transform: translate(-50%, -50%);
+      border:2px solid var(--white);
+  }
+  .carousel-img img{
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+  }
+  .carousel-caption {
+      position: absolute;
+    right: 15%;
+    left: 15%;
+    bottom: 50px;
+    color: var(--white);
+    top: 25%;
+  
+  }
+ 
+  .carousel-control-prev, .carousel-control-next{
+    top:-55%;
+  }
+  .carousel-indicators {
+    top:60%;}
+
+span{
+    color: var(--gold2);
+}
+.women{
+    background-image: url("../img/women2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-control {
+    border: none;
+    border-bottom: 1px solid var(--white);
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+}
+
+.form-control:active, .form-control:focus {
+      outline: none;
+      box-shadow: none;
+      border-color: #000; }
+  
+.form-control {
+    height: 55px; }
+  
+form.border-right {
+    padding-right: 6rem !important; }
+    @media only screen and (max-width: 991px) {
+      form.border-right {
+        padding-right: 0 !important;
+        border-right: none !important; } }
+  #message {
+    resize: vertical; }
+
+.form-group .form-control::placeholder{
+    color:var(--white);
+    background-color: var(--black);
+}
+.shadoww{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.OurTeam{
+    padding-bottom:60px;
+}
+
+.text-danger{
+    margin-left: -70px;
+    font-size: 25px;
+}
+
+
+.sellers img {
+    transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+.sellers img:hover {
+    transform: scale(1.1);
+
+}
+.contactForm .form-control{
+    height: 30px;
+}
+@media only screen and (max-width: 516px){
+    .testimonial h1{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 433px){
+    .testimonial .p{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 1400px){
+    .text-danger{
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 756px){
+    .text-danger{
+        margin-left: -70px;
+    }
+}
+@media only screen and (max-width: 993px){
+    .row-cols-md-3>*{
+        width: 50%;
+    }
+ }
+ @media only screen and (max-width: 766px){
+    .row-cols-md-3>*{
+        width: 100%;
+    }
+ }
+.text{
+    font-size: 17px;
+}
+.fa{
+    font-size: 50px;
+}
+.text{
+    margin-top: 45px;
+    margin-left: 20px;
+}
+.text1{
+    margin-top: 60px;
+    margin-left: 20px;
+}
