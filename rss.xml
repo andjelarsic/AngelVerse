@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Angel Verse Home</title>
+        <link>https://andjelarsic.github.io/AngelVerse/index.html</link>
+        <description>Be the first to know about our news!</description>
+        <item>
+            <title>About us</title>
+            <link>https://andjelarsic.github.io/AngelVerse/about.html</link>
+            <description>Who we are?</description>
+        </item>
+        <item>
+            <title>Faq</title>
+            <link>https://andjelarsic.github.io/AngelVerse/faq.html</link>
+            <description>Salon pictures!</description>
+        </item>
+       <item>
+            <title>Shop</title>
+            <link>https://andjelarsic.github.io/AngelVerse/shop.html</link>
+            <description>Our shop!</description>
+        </item>
+       <item>
+            <title>Contact</title>
+            <link>https://andjelarsic.github.io/AngelVerse/contact.html</link>
+            <description>Get in touch!</description>
+        </item>
+       <item>
+            <title>Author</title>
+            <link>https://andjelarsic.github.io/AngelVerse/author.html</link>
+            <description>About the author!</description>
+        </item>
+    </channel>
+</rss>
